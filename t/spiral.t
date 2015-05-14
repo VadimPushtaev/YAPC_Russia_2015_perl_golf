@@ -132,20 +132,29 @@ my $TESTS = [
   ]
 ];
 
-opendir(my $bin_dir, 'bin') or die "Can't open bin/: $!";
+my $script_to_test = shift;
 my $tests_count = 0;
 
-while (my $script = readdir($bin_dir)) {
-  next unless $script =~ /^(.*)[.]pl$/;
-  my $name = $1;
+sub test_script {
+  my ($script) = @_;
 
   foreach my $test (@{$TESTS}) {
     my ($width, $height, $expected_output) = @{$test};
 
-    my $output = `bin/$script $width $height`;
+    my $output = `solutions/$script $width $height`;
 
-    is($output, $expected_output, "$name: width=$width, height=$height");
+    is($output, $expected_output, "$script: width=$width, height=$height");
     $tests_count++;
+  }}
+
+if (defined $script_to_test) {
+  test_script($script_to_test);
+}
+else {
+  opendir(my $solutions_dir, 'solutions') or die "Can't open solutions/: $!";
+  while (my $script = readdir($solutions_dir)) {
+    next unless $script =~ /[.]pl$/;
+    test_script($script);
   }
 }
 
