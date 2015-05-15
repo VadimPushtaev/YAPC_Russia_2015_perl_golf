@@ -17,7 +17,7 @@ This first one is _width_, the second one is _height_.
 Output
 ------
 
-Your script should print to _STDOUT_ the spiral matrix of numbers. Size is set by the input params.
+Your script should print to _STDOUT_ the spiral matrix of numbers. The matrix size is set by the input params.
 
 The first number is `1`. The order is clockwise. All columns must be separated by spaces (not tabs) and the gap between columns is exactly one space in the most narrow place. The align is left. Every string should be terminated by `\n`. No extra spaces are allowed.
 
