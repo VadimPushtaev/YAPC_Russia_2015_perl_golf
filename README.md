@@ -43,7 +43,7 @@ Your script should print the spiral matrix of numbers to _STDOUT_. The matrix si
 Commit your solution
 --------------------
 
-Don't commit your solution to GitHub until the end of the competition. Don't send pull request either.
+Please, don't commit your solution to GitHub until the end of the competition. Don't send pull request either.
 
 Send your script to mayperlgolf@mail.ru as an attachment. Please name it like `your_full_name.pl`.
 
