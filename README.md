@@ -9,7 +9,7 @@ Input
 Your script should accept two integer arguments:
 
 ```perl
-perl script.pl 10 20
+perl script.pl 10 10
 ```
 
 The first one is _width_, the second one is _height_.
