@@ -56,7 +56,7 @@ Place your script in the `solutions` directory.
 
 Run from the root of the repository:
 
-`perl t/spiral.t` – check all solutions
+`perl t/spiral.t` — check all solutions
 
 `perl t/spiral.t pushtaev.pl` — check a single solution
 
