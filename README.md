@@ -1,5 +1,5 @@
-Golf
-====
+YAPC::Russia Perl golf
+======================
 
 This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests for your script, examples and description (this _README_).
 
