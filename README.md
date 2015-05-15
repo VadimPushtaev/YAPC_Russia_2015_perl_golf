@@ -1,7 +1,7 @@
 YAPC::Russia 2015 Perl golf
 ===========================
 
-This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests, examples and description (this _README_).
+This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests, examples and the description (this _README_).
 
 Input
 -----
@@ -12,7 +12,7 @@ Your script should accept two integer arguments:
 perl script.pl 10 20
 ```
 
-This first one is _width_, the second one is _height_.
+The first one is _width_, the second one is _height_.
 
 Output
 ------
