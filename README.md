@@ -1,7 +1,7 @@
 YAPC::Russia 2015 Perl golf
 ===========================
 
-This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests for your script, examples and description (this _README_).
+This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests, examples and description (this _README_).
 
 Input
 -----
@@ -40,7 +40,7 @@ Commit your solution
 
 Don't commit your solution to GitHub until the end of the competition. Don't send pull request either.
 
-Send your script to mayperlgolf@mail.ru. Please name it like `your_full_name.pl`.
+Send your script to mayperlgolf@mail.ru as an attachment. Please name it like `your_full_name.pl`.
 
 Solutions will be accepted until _2015-05-17 18:30:00 (GMT+3)_.
 
