@@ -44,10 +44,10 @@ Send your script to m@a.il. Please name it like `your_full_name.pl`.
 
 Solution can be accepted until _2015-05-17 18:30:00 (GMT+3)_.
 
-How to code
+How to test
 -----------
 
-Place your script in `solutions` directory.
+Place your script in the `solutions` directory.
 
 Run from the root of the repository:
 
