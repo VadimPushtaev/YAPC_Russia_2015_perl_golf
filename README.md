@@ -42,7 +42,7 @@ Don't commit your solution to GitHub until the end of the competition. Don't sen
 
 Send your script to m@a.il. Please name it like `your_full_name.pl`.
 
-Solution will be accepted until _2015-05-17 18:30:00 (GMT+3)_.
+Solutions will be accepted until _2015-05-17 18:30:00 (GMT+3)_.
 
 How to test
 -----------
