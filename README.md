@@ -19,7 +19,12 @@ Output
 
 Your script should print the spiral matrix of numbers to _STDOUT_. The matrix size is set by the input params.
 
-The first number is `1`. The order is clockwise. All columns must be separated by spaces (not tabs) and the gap between columns is exactly one space in the most narrow place. The align is left. Every string should be terminated by `\n`. No extra spaces are allowed.
+1. The first number is `1`.
+1. The order is clockwise.
+1. All columns must be separated by spaces (not tabs) and the gap between columns is exactly one space in the most narrow place.
+1. The align is left.
+1. Every string should be terminated by `\n`.
+1. No extra spaces are allowed.
 
 ```
 1  2  3  4  5   6  7  8  9  10
