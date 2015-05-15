@@ -40,7 +40,7 @@ Commit your solution
 
 Don't commit your solution to GitHub until the end of the competition. Don't send pull request either.
 
-Send your script to m@a.il. Please name it like `your_full_name.pl`.
+Send your script to mayperlgolf@mail.ru. Please name it like `your_full_name.pl`.
 
 Solutions will be accepted until _2015-05-17 18:30:00 (GMT+3)_.
 
