@@ -61,3 +61,10 @@ Run from the root of the repository:
 `perl t/spiral.t pushtaev.pl` — check a single solution
 
 `perl bin/result.pl` — show the result table
+
+Or you can [install docker](https://docs.docker.com/installation/) to run the tests in prepared environment:
+
+    $ docker build --tag golf .
+    $ docker run --rm golf
+    338     bronton.pl
+    2483    pushtaev.pl
