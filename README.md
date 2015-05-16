@@ -47,7 +47,7 @@ Please, don't commit your solution to GitHub until the end of the competition. D
 
 Send your script to mayperlgolf@mail.ru as an attachment. Please name it like `your_full_name.pl`.
 
-Solutions will be accepted until _2015-05-17 18:30:00 (GMT+3)_.
+Solutions will be accepted until _2015-05-17 18:30:00 (GMT+3)_. Perl 5.10 will be used to check them.
 
 How to test
 -----------
