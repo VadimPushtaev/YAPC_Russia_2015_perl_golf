@@ -141,7 +141,9 @@ sub test_script {
   foreach my $test (@{$TESTS}) {
     my ($width, $height, $expected_output) = @{$test};
 
-    my $output = `solutions/$script $width $height`;
+    my $solution_script = "solutions/$script";
+    chmod(0755, $solution_script);
+    my $output = `$solution_script $width $height`;
 
     is($output, $expected_output, "$script: width=$width, height=$height");
     $tests_count++;
