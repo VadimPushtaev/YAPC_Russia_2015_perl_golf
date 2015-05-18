@@ -1,0 +1,2 @@
+#!/usr/bin/perl
+($c,$m,$n)=(1,@ARGV);$p=$r=$m-1;$b=$n-1;sub S{$a[$_[0]//$_][$_[1]//$_]//=$c++for(@_[2..$#_])}until($c>$m*$n){@o=$l..$r;@y=$t..$b;S($u,$t++,@o);S($r--,$u,@y);S($u,$b--,reverse@o);S($l++,$u,reverse@y)}for$i(0..$n-1){printf$_==$a[$p]?"%s\n":"%-".(sort{$b<=>$a}@{$_})[0]=~y///c."s ",@{$_}[$i]for@a}
