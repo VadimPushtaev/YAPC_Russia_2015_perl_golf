@@ -1,7 +1,7 @@
 YAPC::Russia 2015 Perl golf
 ===========================
 
-This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests, examples and the description (this _README_).
+This is the **YAPC::Russia 2015** Perl golf competition repository. Here you can get tests, examples, the description (this _README_) and _the solutions_.
 
 Input
 -----
@@ -43,11 +43,7 @@ Your script should print the spiral matrix of numbers to _STDOUT_. The matrix si
 Commit your solution
 --------------------
 
-Please, don't commit your solution to GitHub until the end of the competition. Don't send pull request either.
-
-Send your script to mayperlgolf@mail.ru as an attachment. Please name it like `your_full_name.pl`.
-
-Solutions will be accepted until _2015-05-17 18:30:00 (GMT+3)_. Perl 5.10 will be used to check them.
+Since the competition is over, you are now free to send your solutions via pull-request. Please name it like `your_full_name.pl`.
 
 How to test
 -----------
